@@ -9,7 +9,7 @@ db.any("select * from mytest")
         console.log(data);
     })
     .catch(function (error) {
-        // error;
+        console.error(error);
     });
 
 
